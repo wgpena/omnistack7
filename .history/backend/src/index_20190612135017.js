@@ -7,7 +7,6 @@ const conn = mongoose.connect('mongodb+srv://wgpena:wg0134@cluster0-qilrv.mongod
     useNewUrlParser: true
 })
 
-app.use(require('./routes'))
 app.listen(3000)
 
 
